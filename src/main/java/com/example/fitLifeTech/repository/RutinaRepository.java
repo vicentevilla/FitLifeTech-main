@@ -101,4 +101,5 @@ public class RutinaRepository {
     public List<Rutina> rutinasActivas(){
         return listaRutinas.stream().filter(r -> r.getEstado().equalsIgnoreCase("Activa")).toList();
     }  
+    
 }

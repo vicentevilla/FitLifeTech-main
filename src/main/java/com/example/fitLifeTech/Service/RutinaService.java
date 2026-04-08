@@ -56,4 +56,5 @@ public class RutinaService {
     public List<Rutina> getRutinasActivas(){
         return rutinaRepository.rutinasActivas();
     }
+    
 }

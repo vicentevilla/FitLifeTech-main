@@ -18,4 +18,5 @@ public class Rutina {
     private String intensidad; // baja, media, alta
     private String fecha; // fecha de la rutina
     private String estado; // activa, completada, pausada
+    
 }
